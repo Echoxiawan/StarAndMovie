@@ -1,0 +1,162 @@
+.pd-hd {
+    position: relative;
+    width: 100%;
+    height: 580rpx;
+    overflow: hidden;
+    margin-top: -200rpx;
+}
+
+.pd-hd-bg {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 600rpx;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: top;
+    background-size: cover;
+    filter: blur(15rpx);
+}
+
+.pd-hd:before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 600rpx;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.pd-intro {
+    position: absolute;
+    z-index: 6;
+    display: flex;
+    width: 100%;
+    height: 600rpx;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.pd-pics{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.pd-avatar {
+    flex-grow: 1;
+    width: 280rpx;
+    height: 280rpx;
+    border-radius: 280rpx;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    overflow: hidden;
+    box-shadow: 0 0 50rpx rgba(255, 255, 255, .6);
+}
+
+.pd-name {
+    padding: 10rpx 20rpx;
+    margin-top: 32rpx;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 32rpx;
+    font-size: 35rpx;
+    box-shadow: 0 0 20rpx rgba(0, 0, 0, .2) inset,1px 1px 0 rgba(255, 255, 255, .1);
+}
+
+.pd-similar {
+    margin-top: 20rpx;
+    font-size: 30rpx;
+}
+
+.pd-work {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    padding: 10rpx;
+    margin-top: 10rpx;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pd-work-item {
+    width: 350rpx;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f8f8f8;
+    border: 1px solid #eee;
+    margin-bottom: 15rpx;
+}
+
+.pd-work-cover {
+    width: 360rpx;
+    height: 533rpx;
+}
+
+.pd-work-intro {
+    box-sizing: border-box;
+    padding: 10rpx;
+}
+
+.pd-work-title {
+    font-size: 36rpx;
+    color: #333;
+}
+
+.fd-bd {
+    padding: 0 40rpx 40rpx;
+    margin-right: 10rpx;
+}
+
+.film-title {
+    margin-top: 42rpx;
+    margin-bottom: 38rpx;
+    color: #333;
+}
+.film-title-star{
+  height: 40rpx;
+  width: 40rpx;
+}
+.film-title-one{
+  font-size: 31rpx;
+}
+.film-title-two{
+  font-size: 40rpx;
+  color: #ff8719;
+  font-weight: bold;
+}
+.fd-bd-intro {
+    padding-left: 20rpx;
+    margin-top: 28rpx;
+    margin-bottom: 30rpx;
+    font-size: 34rpx;
+    font-weight: bold;
+    color: #444;
+    border-left: 10rpx solid #ff8719;
+}
+
+.fd-bd-description {
+    margin-bottom: 25rpx;
+    text-align: justify;
+    line-height: 1.5;
+    color: #666;
+    font-size: 29rpx;
+}
+
+.btn-buy {
+    width: 320rpx;
+    height: 80rpx;
+    opacity: 0.8;
+    color: white; 
+    font-size: 30rpx;
+    background-color: #6495ED;
+    margin-right: 10rpx;
+    border-radius: 35rpx;
+}
+button::after{
+  border: none;
+}

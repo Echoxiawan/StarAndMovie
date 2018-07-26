@@ -1,0 +1,47 @@
+*** Starting uWSGI 2.0.12-debian (64bit) on [Mon Jul  9 23:31:14 2018] ***
+compiled with version: 5.4.0 20160609 on 31 August 2017 21:02:04
+os: Linux-4.4.0-104-generic #127-Ubuntu SMP Mon Dec 11 12:16:42 UTC 2017
+nodename: ecs-a91a
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /root/sourlab/houtai/WhatStarBack
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/sourlab/houtai/WhatStarBack
+your processes number limit is 31773
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 654912 bytes (639 KB) for 8 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 4587)
+spawned uWSGI worker 1 (pid: 4590, cores: 1)
+spawned uWSGI worker 2 (pid: 4591, cores: 1)
+spawned uWSGI worker 3 (pid: 4592, cores: 1)
+spawned uWSGI worker 4 (pid: 4593, cores: 1)
+spawned uWSGI worker 5 (pid: 4594, cores: 1)
+spawned uWSGI worker 6 (pid: 4595, cores: 1)
+spawned uWSGI worker 7 (pid: 4596, cores: 1)
+spawned uWSGI worker 8 (pid: 4598, cores: 1)
+-- unavailable modifier requested: 0 --
+Mon Jul  9 23:49:22 2018 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul  9 23:49:22 2018 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul  9 23:49:22 2018 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul  9 23:49:22 2018 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul  9 23:49:22 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul  9 23:49:22 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul  9 23:49:22 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul  9 23:49:22 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!

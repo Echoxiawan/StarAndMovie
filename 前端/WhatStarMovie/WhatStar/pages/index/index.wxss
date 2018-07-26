@@ -1,0 +1,60 @@
+/**index.wxss**/
+page { 
+  overflow:hidden; 
+  position:fixed; 
+  background-image:url('https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2184387580,1737217587&fm=27&gp=0.jpg'); 
+  margin: 0px; 
+  /*下面的是关键的设置100%显示*/ 
+  background-size: 100% 100%; 
+} 
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  display: block;
+  overflow: hidden;
+  width: 250rpx;
+  height: 250rpx;
+  margin: 25rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 150rpx;
+}
+
+.user-motto {
+  font-size: 21px;
+  color: white;
+}
+.usertest {
+  width: 300rpx;
+  margin: 150rpx auto;
+}
+.btn-test {
+  height: 82rpx;
+  line-height: 82rpx;
+  border-radius: 40rpx;
+  text-align: center;
+  background-color: #ff8719;
+  color: white;
+  font-size: 34rpx;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 60%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #999;
+}

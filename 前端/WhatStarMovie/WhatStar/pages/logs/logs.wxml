@@ -1,0 +1,23 @@
+﻿<!--logs.wxml-->
+<view class="container">
+  <view class="pd-hd">
+    <image class="pd-hd-bg" src="...{{starpic}}" mode="aspectFill"></image>
+    <view class="pd-intro">
+      <view class="pd-pics">
+        <image class="pd-avatar" src="{{tmpFilePaths}}" mode="aspectFill"></image>
+        <image class="pd-avatar" src="...{{starpic}}" mode="aspectFill"></image>
+      </view>
+      <view class="pd-name">最像明星：{{starname}}</view>
+      <view class="pd-similar">相似度：{{similarity}}%</view>
+    </view>
+  </view>
+  <view class="fd-bd">
+            <view class="film-title">
+                <image class="film-title-star" src="http://pic.qiantucdn.com/58pic/16/76/47/42I58PICRrU_1024.jpg"></image>
+                <text class="film-title-one">  推荐作品：</text>
+                <text class="film-title-two">{{moviename}}</text>
+            </view>
+            <view class="fd-bd-intro">剧情简介</view>
+            <view class="fd-bd-description">{{moviedes}}</view>
+  </view>
+</view>

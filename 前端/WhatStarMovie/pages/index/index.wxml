@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <!--用户信息-->
+  <view class="userinfo">
+    <view class="userinfo-avatar">
+        <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <open-data type="userNickName" class="userinfo-nickname"></open-data>
+  </view>
+  <!--测测你和哪个明星最像-->
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <!--开始测一测-->
+  <view class="usertest">
+    <button bindtap="upload" class="btn-test">开始测一测</button>
+  </view>
+</view>
+
+<loading hidden="{{loadingHidden}}"> <!--是否隐藏-->
+  正在匹配...
+</loading>
